@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/hasinet/hs-design/issues"
   },
-  "homepage": "https://github.com/hasinet/hs-design#readme"
+  "homepage": "https://github.com/hasinet/hs-design#readme",
+  "dependencies": {
+    "vue": "^2.6.11"
+  }
 }
