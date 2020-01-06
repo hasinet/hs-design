@@ -1,0 +1,23 @@
+{
+  "name": "hans",
+  "version": "0.0.1",
+  "description": "This is Vue UI Frame",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasinet/hs-design.git"
+  },
+  "keywords": [
+    "vue",
+    "ui"
+  ],
+  "author": "hans",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hasinet/hs-design/issues"
+  },
+  "homepage": "https://github.com/hasinet/hs-design#readme"
+}
