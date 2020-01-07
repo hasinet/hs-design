@@ -7,4 +7,8 @@
 # misc
 .DS_Store
 
+#编译文件
+.cache
+/dist
+
 npm-debug.log*
