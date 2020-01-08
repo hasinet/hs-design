@@ -1,5 +1,7 @@
 <template>
-  <button class="h-button">hasi</button>
+  <button class="h-button">
+    <slot></slot>
+  </button>
 </template>
 <script>
 export default {}

@@ -1,14 +1,14 @@
 # dependencies npm包文件
-/node_modules
+node_modules/
 
 # production 打包文件
-/build
+build/
 
 # misc
 .DS_Store
 
 #编译文件
 .cache
-/dist
+dist/
 
 npm-debug.log*
