@@ -1,6 +1,6 @@
 <template>
   <button class="h-button" :class="{ [`icon-${iconPosition}`]: true }">
-    <h-icon v-if="icon" :name="icon"></h-icon>
+    <h-icon class="icon" v-if="icon" :name="icon"></h-icon>
     <div class="content"><slot></slot></div>
   </button>
 </template>
