@@ -8,7 +8,23 @@
 </template>
 <script>
 export default {
-  props: ['icon', 'iconPosition']
+  //props: ['icon', 'iconPosition']
+  props: {
+    icon: {},
+    iconPosition: {
+      type: String,
+      default: 'left',
+      validator(val) {
+        // if (val !== 'left' && val !== 'right') {
+        //   return false
+        // } else {
+        //   return true
+        // }
+        //return !(val !== 'left' && val !== 'right')
+        return val === 'left' || val === 'right'
+      }
+    }
+  }
 }
 </script>
 <style lang="scss">
