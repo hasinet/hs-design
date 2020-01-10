@@ -7,5 +7,9 @@ Vue.component('h-icon', Icon)
 
 
 new Vue({
-    el: '#app'
+    el: '#app',
+    data: {
+        loading1: false,
+        loading2: false
+    }
 })

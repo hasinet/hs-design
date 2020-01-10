@@ -46,11 +46,21 @@
         <h-button icon="settings">
             按钮
         </h-button>
+        <h-button icon="download">
+            按钮
+        </h-button>
         <h-button icon="settings" icon-position="right">
             按钮
         </h-button>
         <h-icon name="download"></h-icon>
-        <h-button icon="loading">
+        <h-button :loading="loading1" @click="loading1 = !loading1">
+            按钮
+        </h-button>
+
+        <h-button icon="settings" :loading="loading2" @click="loading2 = !loading2">
+            按钮
+        </h-button>
+        <h-button icon="settings" icon-position="right" :loading="true">
             按钮
         </h-button>
     </div>
