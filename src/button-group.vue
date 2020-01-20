@@ -23,7 +23,10 @@ export default {
   vertical-align: middle;
   > .h-button {
     border-radius: 0;
-    margin-left: -1px;
+    &:not(:first-child) {
+      margin-left: -1px;
+    }
+
     // &:not(:first-child) {
     //   border-left: none;
     // }
