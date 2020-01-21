@@ -24,7 +24,8 @@ new Vue({
 //TDD and BDD
 import chai from 'chai'
 const expect = chai.expect
-
+import spies from 'chai-spies'
+chai.use(spies)
 
 //单元测试-icon:settings
 {
@@ -113,14 +114,15 @@ const expect = chai.expect
     });
 
     buttonVM.$mount()
-    buttonVM.$on('click', function () {
-        console.log('a')
-    })
+
+    let spy = chai.spy(function () { })
+
+    buttonVM.$on('click', spy)
 
     //期望click函数被执行
-
-
     let button = buttonVM.$el
     button.click()
+
+    expect(spy).to.have.been.called()
 
 }
